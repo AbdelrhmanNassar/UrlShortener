@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortener", "UrlShortener\UrlShortener.csproj", "{15FB908C-40D3-44EC-A9A2-7C83F1CFA23F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{BFF40947-DFB3-472B-8B19-C0EE6304769C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{ACF02FA2-75B9-49EF-B0B9-F595CA0D0C90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15FB908C-40D3-44EC-A9A2-7C83F1CFA23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15FB908C-40D3-44EC-A9A2-7C83F1CFA23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15FB908C-40D3-44EC-A9A2-7C83F1CFA23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15FB908C-40D3-44EC-A9A2-7C83F1CFA23F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFF40947-DFB3-472B-8B19-C0EE6304769C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFF40947-DFB3-472B-8B19-C0EE6304769C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFF40947-DFB3-472B-8B19-C0EE6304769C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFF40947-DFB3-472B-8B19-C0EE6304769C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACF02FA2-75B9-49EF-B0B9-F595CA0D0C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF02FA2-75B9-49EF-B0B9-F595CA0D0C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF02FA2-75B9-49EF-B0B9-F595CA0D0C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF02FA2-75B9-49EF-B0B9-F595CA0D0C90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35B687E0-744E-49E0-94E5-A37C4375A458}
+	EndGlobalSection
+EndGlobal
