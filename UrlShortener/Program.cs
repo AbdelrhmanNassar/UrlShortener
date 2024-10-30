@@ -15,6 +15,8 @@ namespace UrlShortener
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("UrlShortnerConnectionString"));
             });
+
+
             builder.Services.InjectDataAccesLayer();
 
 
